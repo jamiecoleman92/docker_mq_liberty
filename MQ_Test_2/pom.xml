@@ -7,7 +7,7 @@
 		<mavenVersion>2.1</mavenVersion>
 	</properties>
 
-	<artifactId>MQ_TEST2</artifactId>
+	<artifactId>MQ_Test_2</artifactId>
 	<packaging>war</packaging>
 	<name>WAS Liberty Sample - MQ Sample Applicationn</name>
 

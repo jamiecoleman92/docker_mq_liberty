@@ -7,9 +7,9 @@
 		<mavenVersion>2.1</mavenVersion>
 	</properties>
 	
-	<artifactId>DB2</artifactId>
+	<artifactId>MQ_Test</artifactId>
     <packaging>war</packaging>
-    <name>WAS Liberty Sample - DB2 Web App Sample Applicationn</name>
+    <name>WAS Liberty Sample - MQ Web App Sample Applicationn</name>
 	
 	<build>
         <plugins>

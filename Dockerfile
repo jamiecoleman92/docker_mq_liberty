@@ -1,6 +1,3 @@
-FROM mq
+FROM ***
 
 COPY config.mqsc /etc/mqm/
-
-
-
