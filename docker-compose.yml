@@ -1,0 +1,25 @@
+mq:
+  build: mq-docker/8.0.0/
+  environment:
+    LICENSE: accept
+    MQ_QMGR_NAME: QM1
+  ports:
+    - "1414:1414"
+liberty1:
+  build: Liberty/
+  environment:
+   LICENSE: accept
+  links:
+   - mq:mqfull
+  ports:
+   - "9080"
+   - "9443"
+liberty2:
+  build: Liberty2/
+  environment:
+   LICENSE: accept
+  links:
+   - mq:mqfull
+  ports:
+   - "9080"
+   - "9443"
