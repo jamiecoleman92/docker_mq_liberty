@@ -32,8 +32,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
-
 /**
  * A simple application that sends a request message and then wait for, and
  * receive, the reply. Note: It is assumed that some other application will process the request
@@ -55,6 +53,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/MQMessage")
 public class MQMessage extends HttpServlet {
 
+
+	/**
+	 * Need to ask about this as not sure why eclipse is wanting it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	 */
 	private static final long serialVersionUID = 1L;
 	// Variables
 	Connection connection = null;
