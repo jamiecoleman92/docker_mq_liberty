@@ -1,6 +1,6 @@
 <server description="new server">
 
-    <!-- Enable features -->
+	<!-- Enable features -->
 	<featureManager>
 		<feature>wmqJmsClient-2.0</feature>
 		<feature>jdbc-4.1</feature>
@@ -12,13 +12,10 @@
 	</featureManager>
 
 	<variable name="wmqJmsClient.rar.location"        
-              value="/wmq/wmq.jmsra.rar"/>
+	value="/wmq/wmq.jmsra.rar"/>
 
-	<basicRegistry 
-		id="basic" 
-		realm="BasicRealm"> 
-	</basicRegistry>
-    
+	<basicRegistry id="basic" realm="BasicRealm"></basicRegistry>
+
 	<httpEndpoint httpPort="9080" httpsPort="9443" id="defaultHttpEndpoint" host="*"/>
 
 	<jmsQueueConnectionFactory jndiName="jms/sample" connectionManagerRef="ConMgr6">
@@ -44,11 +41,7 @@
 			channel="SYSTEM.ADMIN.SVRCONN"/>
 	</jmsActivationSpec>
 
-
 	<connectionManager id="ConMgr6" maxPoolSize="2"/>
-	<library id="DB2JCC4Lib">
-    		<fileset dir="/" includes="db2jcc4.jar jdbc_LI_en"/>
-	</library>
 	<basicRegistry>
 		<user password="" name=""></user>
 	</basicRegistry>
