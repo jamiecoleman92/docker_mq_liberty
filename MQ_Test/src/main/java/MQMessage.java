@@ -53,10 +53,6 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/MQMessage")
 public class MQMessage extends HttpServlet {
 
-
-	/**
-	 * Need to ask about this as not sure why eclipse is wanting it!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-	 */
 	private static final long serialVersionUID = 1L;
 	// Variables
 	Connection connection = null;
