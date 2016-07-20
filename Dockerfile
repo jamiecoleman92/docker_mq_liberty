@@ -1,3 +1,3 @@
-FROM docker pull ibmcom/mq
+FROM ibmcom/mq
 
 COPY config.mqsc /etc/mqm/
